@@ -1,0 +1,130 @@
+{
+    "editor.cursorBlinking": "solid",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#E11717",
+        "tab.activeBackground": "#43455F",
+        "tab.activeModifiedBorder": "#E11717",
+        "terminalCursor.foreground": "#E11717"
+    },
+    "breadcrumbs.symbolPath": "off",
+    "editor.folding": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+    "editor.matchBrackets": "never",
+    "editor.lineNumbers": "off",
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.tabs.title": "Terminal",
+    "output.smartScroll.enabled": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/build/debug/install/python",
+        "${workspaceFolder}/src/python",
+        "${workspaceFolder}",
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.hideCursorInOverviewRuler": true,
+    "cmake.configureOnOpen": true,
+    "workbench.iconTheme": "vs-minimal",
+    "window.title": "${appName} (${folderName})",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.shellIntegration.history": 1000,
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.persistentSessionScrollback": 100000,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.debug.start",
+        "cmake.ctest",
+        "cmake.build",
+        "workbench.action.debug.stop"
+    ],
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.toUpper",
+            "sequence": [
+                "editor.action.transformToUppercase",
+                "cursorWordEndRight",
+            ]
+        },
+        {
+            "command": "multiCommand.toLower",
+            "sequence": [
+                "editor.action.transformToLowercase",
+                "cursorWordEndRight",
+            ]
+        },
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "git.ignoreLegacyWarning": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoSurround": "never",
+    "git.openRepositoryInParentFolders": "never",
+    "search.seedWithNearestWord": true,
+    "editor.quickSuggestionsDelay": 1000,
+    "remote.SSH.connectTimeout": 60,
+    "workbench.colorTheme": "Default Dark+",
+    "cmakeExplorer.suiteDelimiter": ".",
+    "cmakeExplorer.testFileVar": "S2_TEST_FILE",
+    "window.commandCenter": false,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3.5,
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "search.exclude": {
+        "**/rust/**/sapi_*.rs": true
+    },
+    "rust-analyzer.check.command": "clippy",
+    "editor.renderWhitespace": "none",
+    "cmake.options.advanced": {
+        "configurePreset": {
+            "statusBarVisibility": "icon"
+        },
+        "build": {
+            "statusBarVisibility": "hidden"
+        },
+        "launch": {
+            "statusBarVisibility": "hidden"
+        },
+        "debug": {
+            "statusBarVisibility": "hidden"
+        }
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "breadcrumbs.icons": false,
+    "editor.quickSuggestions": {
+        "other": "inline"
+    },
+    "rust-analyzer.lens.implementations.enable": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "json.format.keepLines": true,
+    "git.decorations.enabled": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "terminal.integrated.suggest.quickSuggestions": false,
+    "diffEditor.maxComputationTime": 0,
+    "testExplorer.useNativeTesting": false,
+    "terminal.integrated.showLinkHover": false,
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+    "editor.formatOnSave": true,
+}
