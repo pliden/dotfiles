@@ -1,0 +1,9 @@
+/*
+ * ~/Library/KeyBindings/DefaultKeyBinding.Dict
+ */
+
+{
+    "~ " = ("insertText:", " ");    /* Convert "non-breaking space" to normal space */
+}
+
+/* End of file */
